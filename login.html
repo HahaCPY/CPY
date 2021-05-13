@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="zsh-TW" >
+<head bgcolor=#272727>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=big5"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSNU's Wi-Fi</title>
+    <link rel="stylesheet" type="text/css" href="static/css/login.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bded3f13bd.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../static/js/login.js"></script>
+</head>
+<body bgcolor=#000C15>
+    <form method="post" action="login.php">
+        <p> 
+            <img class="Wi-Fiicon" src="../static/image/Wi-Fi.png">
+            <a class="logo">HSNU</a>
+            <label class="label_input">
+                帳號 :
+            </label>
+            <input type="text" id="username" class="text_field" placeholder="預設:學號"/>
+            <a id="gs">@gs.hs.ntnu.edu.tw</a>
+        </p>
+        <p>
+            <label class="label_input2">
+                密碼 :
+            </label>        
+            <label  id="psw_invisible"> 
+                <input type="password" id="input_invisible" class="input_block" placeholder="預設:身分證號碼"/> 
+                <img class="eye2" id="visible" onclick="showPsw()" src="../static/image/openeye .png">
+            </label>  
+            <label id="psw_visible" style="display: none;">
+                <input type="text" id="input_visible" class="input_block" placeholder="預設:身分證號碼"/>  
+                <img class="eye3" id="invisible" onclick="hidePsw()" src="../static/image/closeeye .png">
+            </label>
+            <a href=”javascript:password();”></a>
+        </p>
+        <div id="login_control">
+            <input type="button" id="submit" value="Submit" onclick="submit();"/>
+        </div>
+        <a id=sen type="button" href="https://www.hs.ntnu.edu.tw/%e6%a0%a1%e5%85%a7%e7%b6%b2%e8%b7%af%e6%9c%8d%e5%8b%99/">不會登嗎??point me</a>
+    </form>
+</body>
+<script type="text/javascript" src="../static/js/password.js"></script>
+</html>
