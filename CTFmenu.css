@@ -1,0 +1,85 @@
+@font-face {
+				font-family: "jfopen";
+				src: url(jf-openhuninn-1.1.ttf); }
+
+.list{
+	background-color: #333333;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-auto-rows: 60px; }
+
+#CTF{
+	background-color: #333333;
+	text-decoration:none;
+	vertical-align: middle;
+	font-family: "jfopen";
+	font-size: 21px;
+	margin: auto;
+	border: 0;
+	color: white;
+	display: grid;
+	grid-column-start: 6; }
+
+#CTF:hover{
+	color: #88dafd; }
+
+#note{
+	background-color: #333333;
+	text-decoration:none;
+	vertical-align: middle;
+	font-family: "jfopen";
+	font-size: 21px;
+	margin: auto;
+	border: 0;
+	color: white;
+	display: grid;
+	grid-column-start: 7; }
+
+#note:hover{
+	color: #fdec8a; }
+
+#me{
+	background-color: #333333;
+	text-decoration:none;
+	font-family: "jfopen";
+	font-size: 21px;
+	margin: auto;
+	border: 0;
+	color: white;
+	display: grid;
+	grid-column-start: 8; }
+
+#me:hover{
+	color: #f9ada9; }
+
+.menu{
+	display: grid;
+	margin-top: 5%;
+	width: 100%;
+	height: 80%;
+}
+
+.three{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.middle{
+	grid-column-start: 2;
+}
+
+.writeup{
+		color: white;
+		border-radius: 15px;
+		background-color: #3e3e3e;
+		font-family: "jfopen";
+		font-size: 25px;
+		font-weight: bold;
+		width: 100%;
+		height: 50%;
+}
+
+.writeup:hover{
+		background-color: #b3d0e2;
+		color: black;
+}
