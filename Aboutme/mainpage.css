@@ -1,0 +1,102 @@
+@font-face {
+				font-family: "jfopen";
+				src: url(jf-openhuninn-1.1.ttf); }
+
+.list{
+	background-color: #333333;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-auto-rows: 60px; }
+
+#CTF{
+	background-color: #333333;
+	text-decoration:none;
+	vertical-align: middle;
+	font-family: "jfopen";
+	font-size: 21px;
+	margin: auto;
+	border: 0;
+	color: white;
+	display: grid;
+	grid-column-start: 6; }
+
+#CTF:hover{
+	color: #88dafd; }
+
+#note{
+	background-color: #333333;
+	text-decoration:none;
+	vertical-align: middle;
+	font-family: "jfopen";
+	font-size: 21px;
+	margin: auto;
+	border: 0;
+	color: white;
+	display: grid;
+	grid-column-start: 7; }
+
+#note:hover{
+	color: #fdec8a; }
+
+#me{
+	background-color: #333333;
+	text-decoration:none;
+	font-family: "jfopen";
+	font-size: 21px;
+	margin: auto;
+	border: 0;
+	color: white;
+	display: grid;
+	grid-column-start: 8; }
+
+#me:hover{
+	color: #f9ada9; }
+
+.center{
+	display: grid; }
+
+.right{
+	font-size: 22px;
+	color: #5c5656;
+	text-shadow: 0.5px 0.5px 2px #ff9e9e;
+ 	font-family: "jfopen";
+	display: grid; }
+
+.center{
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: 1fr 2fr; }
+
+.bottom{
+	display: grid;
+	margin-top: 70px;
+	grid-template-columns: 1fr 2fr 0.5fr 2fr 0.5fr 2fr 1fr;}
+
+.bleft{
+	align-self: self-start;
+	font-size: 20px;
+	color: #615b5b;
+	line-height: 30px;
+ 	font-family: "jfopen";
+	display: grid;
+	padding: 25px 25px;
+ 	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; }
+
+.Title{
+	color: #3d3434;
+	font-size: 25px;
+	font-weight: bolder;
+	text-shadow: 1px 1px 1px #566687, 2px 2px 2px #b1c6f0;
+	display: grid; }
+
+#meimage{
+	margin: auto;
+	display: grid;
+	border-radius: 50%;
+	width: 270px;
+	height: 270px
+	border: 1px solid rgba(255,0,0,1.00); }
+
+button:active {
+    background: yellow;
+    color: #000; }
